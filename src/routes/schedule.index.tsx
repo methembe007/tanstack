@@ -9,7 +9,7 @@ import RemyAssistant from '@/components/RemyAssistant'
 export const Route = createFileRoute('/schedule/')({
   component: SchedulePage,
 })
-
+ // Helper get get speakre data by n name 
 // Helper to get speaker data by name
 function getSpeakerByName(name: string) {
   return allSpeakers.find((s) => s.name.toLowerCase() === name.toLowerCase())
